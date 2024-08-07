@@ -1424,12 +1424,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 3, y: 3}
-        - {x: -1, y: 0}
-        - {x: -3, y: -3}
-        - {x: -4, y: -8}
+      - - {x: 2, y: 1}
+        - {x: 0, y: 0}
+        - {x: -3, y: -2}
+        - {x: -3, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 4}
+        - {x: 8, y: 2}
       tessellationDetail: 0
       bones: []
       spriteID: 7d341c91a10d021478ba344fdba12c08
@@ -1451,10 +1451,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 3}
+      - - {x: -8, y: 2}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 3}
+        - {x: 8, y: 2}
       tessellationDetail: 0
       bones: []
       spriteID: 020fb86225ed8bf46aa8e62dd66e201f
@@ -1476,12 +1476,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -1, y: 4}
-        - {x: -8, y: 4}
+      - - {x: 1, y: 2}
+        - {x: -8, y: 2}
         - {x: -8, y: -8}
         - {x: 3, y: -8}
-        - {x: 4, y: -2}
-        - {x: 2, y: 2}
+        - {x: 3, y: -2}
+        - {x: 3, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 22347cae8cfa3a447b40ba45f09b8f39
@@ -2237,10 +2237,10 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -3, y: 8}
-        - {x: -4, y: 3}
-        - {x: -2, y: -2}
-        - {x: 2, y: -4}
-        - {x: 8, y: -5}
+        - {x: -1, y: 8}
+        - {x: 3, y: 8}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
         - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
@@ -2264,8 +2264,9 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -4}
-        - {x: 8, y: -4}
+        - {x: -8, y: 8}
+        - {x: 0, y: 8}
+        - {x: 8, y: 8}
         - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
@@ -2289,10 +2290,10 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -4}
-        - {x: -3, y: -3}
-        - {x: 0, y: -1}
-        - {x: 3, y: 4}
+        - {x: -8, y: 8}
+        - {x: -3, y: 8}
+        - {x: -1, y: 8}
+        - {x: 3, y: 8}
         - {x: 3, y: 8}
       tessellationDetail: 0
       bones: []
