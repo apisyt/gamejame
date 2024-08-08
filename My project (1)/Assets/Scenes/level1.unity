@@ -18483,6 +18483,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f7c51579fc4834dbb5c21e4342e0a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &873529391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8192136668122339696, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
+  m_PrefabInstance: {fileID: 3711149248488930001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1042455856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7475246949539085480, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
@@ -18498,6 +18503,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52f7c51579fc4834dbb5c21e4342e0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1042455868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042455856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6b5a8ebaa09204dbc32210afb7c43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1263972447
@@ -18531,6 +18548,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303829551a8a70b44961c9f787118ac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 873529391}
+  Enemy: {fileID: 1263972451}
   Espeed: 3
 --- !u!58 &1263972449
 CircleCollider2D:
@@ -18628,7 +18647,7 @@ Transform:
   m_GameObject: {fileID: 1263972447}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 4.4, z: -1.1529521}
+  m_LocalPosition: {x: 2.78, y: 1.47, z: -1.1529521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93292,6 +93311,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7475246949539085480, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
+      propertyPath: m_Name
+      value: Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 8192136668122339696, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
@@ -93342,6 +93365,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7475246949539085480, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1042455862}
+    - targetCorrespondingSourceObject: {fileID: 7475246949539085480, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1042455868}
   m_SourcePrefab: {fileID: 100100000, guid: c6e5d67e410db09439bec8d8ae862fe7, type: 3}
 --- !u!1001 &8350045041063104520
 PrefabInstance:
