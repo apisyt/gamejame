@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 644252504100418570}
   - component: {fileID: 6818012272514452039}
   - component: {fileID: 6288520852067811683}
+  - component: {fileID: 7941782933951853241}
   m_Layer: 0
   m_Name: papierz
   m_TagString: Untagged
@@ -148,3 +149,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.055532455, y: 0}
   m_Size: {x: 1.8597984, y: 2.73}
   m_Direction: 0
+--- !u!256 &7941782933951853241
+FrictionJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352934360683579031}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_MaxForce: 10
+  m_MaxTorque: 10

@@ -21,10 +21,16 @@ public class inputManager : MonoBehaviour
         _playerInput = GetComponent<PlayerInput>();
 
         _moveAction = _playerInput.actions["Move"];
+
    
     }
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // Close the game
+            Application.Quit();
+        }
         Movment = _moveAction.ReadValue<Vector2>();
     }
 }
