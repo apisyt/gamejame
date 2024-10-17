@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 42e6eb108e3338d46bc6ae89e624e36b, type: 3}
-    - time: 0.25
-      value: {fileID: 21300000, guid: 060cc2b3cee12c6459ec7d476e0fd12c, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: 42e6eb108e3338d46bc6ae89e624e36b, type: 3}
+      value: {fileID: 21300000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 4a5181391e673b7468cc181ab2e33e61, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +48,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 42e6eb108e3338d46bc6ae89e624e36b, type: 3}
-    - {fileID: 21300000, guid: 060cc2b3cee12c6459ec7d476e0fd12c, type: 3}
-    - {fileID: 21300000, guid: 42e6eb108e3338d46bc6ae89e624e36b, type: 3}
+    - {fileID: 21300000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
+    - {fileID: 21300000, guid: 4a5181391e673b7468cc181ab2e33e61, type: 3}
+    - {fileID: 21300000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -75,4 +75,25 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 2800000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 21300000, guid: cea55c0a5c74b25428a78ed5aa92b7d6, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
